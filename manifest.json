@@ -1,11 +1,22 @@
 {
     "manifest_version": 3,
     "name": "DelSqrwiels",
-    "version": "1.0.0",
+    "version": "2.0",
+    "host_permissions": ["*://*.wikipedia.org/*"],
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
             "js": ["Content.js"]
         }
-    ]
+    ],
+    "icons": {
+        "16": "img/logo.png",
+        "32": "img/logo.png",
+        "48": "img/logo.png",
+        "128": "img/logo.png"
+    },
+    "action": {
+        "default_icon": "img/logo.png",
+        "default_popup": "popup.html"
+    }
 }
