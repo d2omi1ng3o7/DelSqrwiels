@@ -66,3 +66,21 @@ label:hover{
     bottom: 0;
     width: 100%;
 }
+section{
+    padding: 20px;
+    font-size: 1.15em;
+}
+ol{
+    list-style: none;
+}
+ol li{
+    display: block;
+    padding: 5px;
+    position: relative;
+}
+ol li label{
+    position: absolute;
+    left: 48px;
+    top: 13px;
+    transform: translateY(-50%)
+}
