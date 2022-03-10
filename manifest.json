@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "DelSqrwiels",
-    "version": "2.0",
+    "version": "2.2",
     "host_permissions": ["*://*.wikipedia.org/*"],
     "content_scripts": [
         {
